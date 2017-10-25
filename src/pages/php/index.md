@@ -21,3 +21,12 @@ It is typically used to generate web page content dynamically. For example, if y
 ## How does PHP work?
 
 All PHP code is executed on a web server only, not on your local computer. For example, if you complete a form on a website and submit it, or click a link to a web page written in PHP, no actual PHP code runs on your computer. Instead, the form data or request for the web page gets sent to a web server to be processed by the PHP scripts. The web server then sends the processed HTML back to you (which is where 'Hypertext Preprocessor' in the name comes from), and your web browser displays the results. For this reason, you cannot see the PHP code of a website, only the resulting HTML that the PHP scripts have produced.
+
+## Arrays
+
+Though an array is considered to be a data type in PHP, an array is actually a data structure which is
+mostly used in all programming platforms. In PHP, the array is actually an ordered map .We can store multiple values in a single array as a single
+variable. Matrix type data are easy to store in an array and hence it is used widely in all programming
+platforms. Usually arrays are a fixed size collection which is accessed by sequential numeric indexes. In
+PHP, arrays are implemented differently and you can define dynamic arrays without defining any fixed
+ 
